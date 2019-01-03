@@ -1,0 +1,34 @@
+{
+  "name": "@scanf/phr",
+  "version": "0.0.0",
+  "description": "hot reload php files in browser for legacy work on wordpress stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo mocha test",
+    "lint": "eslint --fix *.js"
+  },
+  "bin": {
+    "phr": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scanf/phr.git"
+  },
+  "keywords": [
+    "php",
+    "reload"
+  ],
+  "author": "Alexander Alemayhu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scanf/phr/issues"
+  },
+  "homepage": "https://github.com/scanf/phr#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "node-watch": "^0.6.0",
+    "reload": "^2.4.0"
+  }
+}
